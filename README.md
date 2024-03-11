@@ -20,7 +20,7 @@ Ejemplos:
 ```
 
 ```bash    
-    python page_dewarp_custom.py img_in/manifiesto_1900_07_03.jpg img_in/manifiesto_1900_07_05.jpg  img_in/manifiesto_1900_07_05_o.jpg img_in/manifiesto_1900_07_16.jpg img_in/manifiesto_1900_07_24.jpg img_in/manifiesto_1900_07_24_o.jpg img_in/manifiesto_1900_07_24_2.jpg img_in/entradas_1900_07_26.jpg img_in/entradas_1900_07_30.jpg
+    python page_dewarp_custom.py img_in/manifiesto_1900_07_03.jpg img_in/manifiesto_1900_07_05.jpg  img_in/manifiesto_1900_07_05_o.jpg img_in/manifiesto_1900_07_16.jpg img_in/manifiesto_1900_07_24.jpg img_in/manifiesto_1900_07_24_o.jpg img_in/manifiesto_1900_07_24_2.jpg img_in/entradas_1900_07_26.jpg img_in/entradas_1900_07_30.jpg img_in/libro_664.JPG
 ```
 
 ```bash   
