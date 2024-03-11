@@ -2,3 +2,7 @@
 *~
 nogit/*
 *.pyc
+.Rproj.user
+/borradores
+/img_out
+page_dewarp_custom.Rproj
