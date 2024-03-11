@@ -52,9 +52,9 @@ RVEC_IDX = slice(0, 3)   # índice de rvec en el vector de parámetros
 TVEC_IDX = slice(3, 6)   # índice de tvec en el vector de parámetros
 CUBIC_IDX = slice(6, 8)  # índice de pendientes cúbicas en el vector de parámetros
 
-SPAN_MIN_WIDTH = 45      # ancho mínimo en píxeles reducidos para la extensión
-SPAN_PX_PER_STEP = 30    # espaciado en píxeles reducidos para muestreo a lo largo de las extensiones
-FOCAL_LENGTH = 1.0       # longitud focal normalizada de la cámara
+SPAN_MIN_WIDTH = 120      # ancho mínimo en píxeles reducidos para la extensión
+SPAN_PX_PER_STEP = 80    # espaciado en píxeles reducidos para muestreo a lo largo de las extensiones
+FOCAL_LENGTH = 0.4       # longitud focal normalizada de la cámara
 
 DEBUG_LEVEL = 0          # 0=ninguno, 1=algunos, 2=mucho, 3=todo
 DEBUG_OUTPUT = 'file'    # archivo, pantalla, ambos

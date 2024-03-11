@@ -6,3 +6,5 @@ nogit/*
 /borradores
 /img_out
 page_dewarp_custom.Rproj
+.RData
+.Rhistory
