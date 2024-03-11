@@ -17,9 +17,18 @@ from PIL import Image
 import numpy as np
 import scipy.optimize
 
-# Por alguna razón, pylint se queja de que los miembros de cv2 están indefinidos :(
-# pylint: disable=E1101
+# Directorio de salida
+out_dir = 'img_out'
 
+# Verificar si el directorio existe
+if not os.path.exists(out_dir):
+    # Si no existe, crear el directorio
+    os.makedirs(out_dir)
+    print(f"Directorio '{out_dir}' creado.")
+else:
+    print(f"El directorio '{out_dir}' ya existe.")
+
+# Definición de parámetros
 PAGE_MARGIN_X = 0       # píxeles reducidos para ignorar cerca del borde izquierdo/derecho # OK
 PAGE_MARGIN_Y = 0       # píxeles reducidos para ignorar cerca del borde superior/inferior # OK
 
@@ -781,7 +790,7 @@ def remap_image(name, img, small, page_dims, params):
                          cv2.INTER_CUBIC,
                          None, cv2.BORDER_REPLICATE)
 
-    outfile = name + '_mod.jpg'
+    outfile = out_dir + '/' + name + '_mod.jpg'
     cv2.imwrite(outfile, remapped)
 
     if DEBUG_LEVEL >= 1:

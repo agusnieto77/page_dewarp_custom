@@ -1,14 +1,18 @@
-page_dewarp
+page_dewarp_custom
 ===========
 
-Page dewarping and thresholding using a "cubic sheet" model - see full writeup at <https://mzucker.github.io/2016/08/15/page-dewarping.html>
+Corrección de páginas con líneas curvas mediante un modelo de "hoja cúbica": consulte el texto completo en <https://mzucker.github.io/2016/08/15/page-dewarping.html>
 
-Requirements:
+Requiere:
 
  - scipy
- - OpenCV 3.0 or greater
- - Image module from PIL or Pillow
+ - OpenCV 3.0 o superior
+ - Módulo Image de PIL o Pillow
  
-Usage:
+Uso:
 
-    page_dewarp.py IMAGE1 [IMAGE2 ...]
+    page_dewarp_custom.py IMAGE1 [IMAGE2 ...]
+
+Ejemplo:
+
+    python page_dewarp_custom.py img_in/manifiesto.jpg
